@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday 🎂</title>
+<style>
+body {
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to right, pink, lightblue);
+}
+h1 { color: red; margin-top: 50px; }
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎉 สุขสันต์วันเกิด 🎉</h1>
+<h2 id="msg">กดปุ่มเลย!</h2>
+
+<button onclick="showMsg()">กดเลย 🎁</button>
+
+<script>
+function showMsg() {
+    document.getElementById("msg").innerHTML =
+    "สุขสันต์วันเกิดนะ 🎂 ขอให้มีความสุขมากๆ!";
+}
+</script>
+
+</body>
+</html>
